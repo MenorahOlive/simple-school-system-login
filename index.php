@@ -420,6 +420,19 @@
                 <form action="process_login.php" method="POST">
                     <div class="modal-body">
                         <p class="lead">Welcome Back!</p>
+                        <h5>
+                            <?php
+                             error_reporting(0);
+
+                             session_start();
+
+                           
+                           
+                            session_destroy();
+                            echo $_SESSION['loginMessage'];
+                            
+                            ?>
+                        </h5>
 
                         <div class="mb-3">
                             <label for="userName" class="col-form-label">

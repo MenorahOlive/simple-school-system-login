@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['username'])){
+    header("location:login.php");
+}elseif($_SESSION['usertype']=='admin'){
+    header("location:login.php");
+    
+    }
+    
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +21,7 @@
 </head>
 <body>
 <h1>STUDENT SUCCESS</h1>
+<a href="logout.php">Logout</a>
 </body>
 </html>
 

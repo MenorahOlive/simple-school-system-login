@@ -2,7 +2,7 @@
 
 require("connect.php");
 session_start();
-
+error_reporting(0);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
@@ -17,10 +17,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $row = mysqli_fetch_array($result);
 
     if ($row["usertype"] == "student") {
+        $_SESSION['username']=$name;
+
+        $_SESSION['usertype']="student";
         header("location:studentdashboard.php");
     } else if ($row["usertype"] == "admin") {
+        $_SESSION['username']=$name;
+        $_SESSION['usertype']="admin";
         header("location:admindashboard.php");
     } else {
-        echo "invalid credentials";
+        
+        $message = "invalid credentials";
+        $_SESSION['loginMessage'] = $message;
+        header("location:login.php");
     }
 }
