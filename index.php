@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <link rel="stylesheet" href="style.css" />
@@ -38,9 +37,9 @@
                     <li class="nav-item">
                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#login">
                             Login
-                          </button>
+                        </button>
                     </li>
-                 
+
                 </ul>
             </div>
         </div>
@@ -153,8 +152,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3"
-                                alt="" />
+                            <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3" alt="" />
                             <h3 class="card-title mb-3">John Snow</h3>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -171,8 +169,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/48.jpg" class="rounded-circle mb-3"
-                                alt="" />
+                            <img src="https://randomuser.me/api/portraits/women/48.jpg" class="rounded-circle mb-3" alt="" />
                             <h3 class="card-title mb-3">Arya Stark</h3>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -189,8 +186,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle mb-3"
-                                alt="" />
+                            <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle mb-3" alt="" />
                             <h3 class="card-title mb-3">William Tarley</h3>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -207,8 +203,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card bg-light">
                         <div class="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/17.jpg" class="rounded-circle mb-3"
-                                alt="" />
+                            <img src="https://randomuser.me/api/portraits/women/17.jpg" class="rounded-circle mb-3" alt="" />
                             <h3 class="card-title mb-3">Denarys Bowley</h3>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -233,8 +228,7 @@
                 <!-- Item 1 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#question-one">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
                             Where exactly are you located?
                         </button>
                     </h2>
@@ -253,8 +247,7 @@
                 <!-- Item 2 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#question-two">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
                             How much does it cost to attend?
                         </button>
                     </h2>
@@ -273,8 +266,7 @@
                 <!-- Item 3 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#question-three">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
                             What extra-curriculars are available?
                         </button>
                     </h2>
@@ -293,8 +285,7 @@
                 <!-- Item 4 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#question-four">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
                             How do I sign up?
                         </button>
                     </h2>
@@ -313,8 +304,7 @@
                 <!-- Item 5 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#question-five">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
                             How do I apply for financial aid?
                         </button>
                     </h2>
@@ -384,33 +374,36 @@
                     <h5 class="modal-title" id="enrollLabel">Registration</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <p class="lead">Kindly fill out this form</p>
-                    <form>
+                <!--Registration Form-->
+                <form action="" method="POST">
+                    <div class="modal-body">
+                        <p class="lead">Kindly fill out this form</p>
+
                         <div class="mb-3">
                             <label for="username" class="col-form-label">Username:</label>
-                            <input type="text" class="form-control" id="username" />
+                            <input type="text" class="form-control" id="username" name="username" required />
                         </div>
                         <div class="mb-3">
                             <label for="email" class="col-form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" />
+                            <input type="email" class="form-control" id="email" name="email" required />
                         </div>
                         <div class="mb-3">
                             <label for="password" class="col-form-label">Password:</label>
-                            <input type="password" class="form-control" id="password" />
+                            <input type="password" class="form-control" id="password" name="password" required />
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="col-form-label">Phone:</label>
-                            <input type="tel" class="form-control" id="phone" />
+                            <input type="tel" class="form-control" id="phone" name="phone" required />
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-success">Submit</button>
-                </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <input type="submit" class="btn btn-success" value="submit">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -423,38 +416,39 @@
                     <h5 class="modal-title" id="login-lbl">Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <p class="lead">Welcome Back!</p>
-                    <form>
+                <!--Login Form-->
+                <form action="process_login.php" method="POST">
+                    <div class="modal-body">
+                        <p class="lead">Welcome Back!</p>
+
                         <div class="mb-3">
-                            <label for="first-name" class="col-form-label">
+                            <label for="userName" class="col-form-label">
                                 Username:
                             </label>
-                            <input type="text" class="form-control" id="first-name" />
+                            <input type="text" class="form-control" id="userName" name="username" required />
                         </div>
                         <div class="mb-3">
-                            <label for="last-name" class="col-form-label">Password:</label>
-                            <input type="text" class="form-control" id="last-name" />
+                            <label for="passWord" class="col-form-label">Password:</label>
+                            <input type="password" class="form-control" id="passWord" name="password" required />
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-success">Login</button>
-                </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                        <input type="submit" class="btn btn-success" value="login">
+                    </div>
+                </form>
             </div>
         </div>
-    </div> 
+    </div>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>
