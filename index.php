@@ -38,12 +38,24 @@
                         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#login">
                             Login
                         </button>
+                        <?php
+                        session_start();
+                        error_reporting(0);
+                        session_destroy();
+
+                        echo $_SESSION['error'];
+
+
+
+                        ?>
                     </li>
 
                 </ul>
             </div>
         </div>
     </nav>
+
+
 
     <!-- Showcase -->
     <header class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
@@ -409,7 +421,7 @@
     </div>
 
     <!--Login Modal-->
-    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="login-lbl" aria-hidden="true">
+    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -420,19 +432,7 @@
                 <form action="process_login.php" method="POST">
                     <div class="modal-body">
                         <p class="lead">Welcome Back!</p>
-                        <h5>
-                            <?php
-                             error_reporting(0);
-
-                             session_start();
-
-                           
-                           
-                            session_destroy();
-                            echo $_SESSION['loginMessage'];
                             
-                            ?>
-                        </h5>
 
                         <div class="mb-3">
                             <label for="userName" class="col-form-label">
@@ -450,7 +450,10 @@
                         <button type="button" class="btn btn-success" data-bs-dismiss="modal">
                             Close
                         </button>
+
                         <input type="submit" class="btn btn-success" value="login">
+
+
                     </div>
                 </form>
             </div>
